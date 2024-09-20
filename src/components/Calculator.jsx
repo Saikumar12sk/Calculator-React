@@ -39,7 +39,7 @@ const Calculator = () => {
 
   return (
     <div className='container' >
-        <div className="card my-3 bg-light mx-auto border-light" style={{width:"450px",borderRadius:"20px"}}>
+        <div className="card my-3 bg-grey mx-auto border-light" style={{width:"450px",borderRadius:"20px"}}>
         <Display data={data} />
         <div className="card-body bg-grey text-dark" style={{borderRadius:"20px"}}>
         <Keyboard  onClick={handleClick}/>
